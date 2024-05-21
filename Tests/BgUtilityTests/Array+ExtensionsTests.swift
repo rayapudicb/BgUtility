@@ -18,7 +18,7 @@ class Array_ExtensionsTests: XCTestCase {
     }
     func testWrongValues(){
         let numbers = [1,2,3,4,5]
-        let num1 = numbers[safeIndex: 10]
+        let num1 = numbers[safeIndex: 11]
         XCTAssert(num1==nil)
         
     }
